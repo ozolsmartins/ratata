@@ -1,3 +1,9 @@
 .vardi{
   text-align: center;
+  font-family: "Gotham";
+  font-size: medium;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("Gotham-Bold.otf");
 }
