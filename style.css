@@ -2,8 +2,23 @@
   text-align: center;
   font-family: "Gotham";
   font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
 }
 @font-face {
   font-family: "Gotham";
   src: url("Gotham-Bold.otf");
+}
+/* .audio{
+  display: none;
+} */
+
+.radio{
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
 }
