@@ -9,9 +9,7 @@
   font-family: "Gotham";
   src: url("Gotham-Bold.otf");
 }
-/* .audio{
-  display: none;
-} */
+
 
 .radio{
   cursor: pointer;
@@ -19,6 +17,31 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  width: 200px;
+  height: 75px;
+  width: 75px;
+}
+.forward{
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rewind{
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pogas{
+  text-align: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kontroles{
+  text-align: center;
+  display: none;
+}
+.bob{
+  text-align: center;
+  width: 320;
+  height: 320;
 }
