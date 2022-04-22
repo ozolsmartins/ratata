@@ -40,8 +40,11 @@
   text-align: center;
   display: none;
 }
-.bob{
+.bobs{
+  width: 100%;
   text-align: center;
-  width: 320;
-  height: 320;
+}
+.bobs img{
+  width: 180px;
+  height: 180px;
 }
