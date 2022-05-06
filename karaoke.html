@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Login</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+      </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>  
+    </div>
     <div class="bobs"><img src="https://i.scdn.co/image/ab67616d0000b273676a8230a422123e8012557e"></div>
     <div class="kontroles">
         <audio controls class="audio" id="audio"><source src="NightMoves.wav" type="audio/wav"></audio>
@@ -23,6 +32,8 @@
     <div id="teksts">
         <pre class="vardi" id="vardi"></pre>
     </div>
+
+
 <script src="main.js"></script>    
 </body>
 </html>

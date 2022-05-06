@@ -1,13 +1,20 @@
 .vardi{
   text-align: center;
   font-family: "Gotham";
-  font-size: medium;
+  font-size:36px;
   margin-left: auto;
   margin-right: auto;
 }
 @font-face {
   font-family: "Gotham";
   src: url("Gotham-Bold.otf");
+}
+html { 
+  background: url(sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -48,4 +55,52 @@
 .bobs img{
   width: 180px;
   height: 180px;
+  border-radius: 10%;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  font-family: "Gotham";
+  src: url("Gotham-Bold.otf");
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 8px;
 }
