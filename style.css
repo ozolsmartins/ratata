@@ -142,3 +142,13 @@ html {
     font-size: 15px;
   }
 }
+
+.cdiv {
+  text-align: center;
+  color:#f1f1f1;
+}
+
+.managers {
+  size: 60px;
+  text-align: center;
+}

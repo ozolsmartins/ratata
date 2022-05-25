@@ -123,4 +123,32 @@ function closeNav() {
     document.getElementById("mySidebar").style.left = "-100%";
 }
 
+function submit(){
 
+    if (document.getElementById("username").value==""&&document.getElementById("password").value=="") {
+    
+        document.getElementById("blank-enter").style.display="block"
+    
+    } else if (document.getElementById("username").value=="user"&&document.getElementById("password").value=="pass") {
+
+        location.replace("success.html")
+
+    } else {
+
+
+    document.getElementById("password-incorrect-warning").style.display="block"
+
+    document.getElementById("blank-enter").style.display="none"
+    
+    document.getElementById("login-info-div").style.display="none"
+                    }
+                }
+                function change(){
+    
+    document.getElementById("password-changed").style.display="block"
+    
+    document.getElementById("password-incorrect-warning").style.display="none"
+                }
+                function refresh(){
+                    location.reload();
+                }

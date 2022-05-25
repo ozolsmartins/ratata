@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div id="main">
+            <button class="openbtn" onclick="openNav()"><img src="burger.png" width="30px" height="30px"></button>
+        </div>
+        <div class="title"><h1>Login</h1></div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="login.html">Login</a>
+        <a href="karaoke.html">Home</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="cdiv" id="login-info-div">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username">
+        <br><br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password">
+        <br><br>
+        <button onclick="submit()">Login</button>
+    </div>
+    <div class="cdiv" id="password-incorrect-warning" style="display:none;">
+        <h3>Incorrect password.</h3>
+        <p>Would you like to <button onclick="change();">change
+password?</button></p>
+    </div>
+    <div class="cdiv" id="password-changed" style="display:none;">
+        <h3>Password Sucessfully changed!</h3>
+        <button onclick="refresh()">Back to login</button>
+    </div>
+    <div class="cdiv" id="blank-enter" style="display:none;">
+        <h3>Enter Your username and password!</h3>
+    </div>
+
+
+
+
+
+<script src="main.js"></script>   
+</body>
+</html>
